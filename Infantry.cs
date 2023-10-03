@@ -8,5 +8,9 @@ namespace Panzerfaust
 {
     public class Infantry : Soldier
     {
+        public Infantry(int Id) : base(Id)
+        {
+
+        }
     }
 }

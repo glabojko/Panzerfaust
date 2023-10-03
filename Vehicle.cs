@@ -8,5 +8,11 @@ namespace Panzerfaust
 {
     public class Vehicle
     {
+        int RegistrationNumber { get; set; }
+
+        public Vehicle(int registrationNumber)
+        {
+            RegistrationNumber = registrationNumber;
+        }
     }
 }
