@@ -33,7 +33,10 @@
             for (int i = 0; i < 10; i++) { truck.AddInfantry(infantry); }
 
 
-            Console.WriteLine(tank.ShowStuff());
+            Console.WriteLine(tank.ShowParameters());
+            Console.WriteLine(truck.ShowParameters());
+            Console.WriteLine(ah.ShowPower());
+            Console.WriteLine(ds.ShowPower());
         }
     }
 }

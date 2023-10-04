@@ -24,15 +24,16 @@ namespace Panzerfaust
             panzers.Add(panzer);
         }
 
-        public string ShowStuff()
+        public string ShowParameters()
         {
+            Console.Write($"We have {FirePower} points of fire power, and {MaxSpeed} km/h maximum speed. ");
             if (panzers.Count > 4)
             {
                 return "Our tank stuff is complete";
             }
             else
             {
-                return $"Herzlich wilkomenn {panzers.Count}";
+                return $"Herzlich wilkomenn im unsere TANK, wir sind: {panzers.Count} zusammen.";
             }
         }
     }

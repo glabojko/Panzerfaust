@@ -20,5 +20,18 @@ namespace Panzerfaust
         {
             infantrys.Add(infantry);
         }
+
+        public string ShowParameters()
+        {
+            Console.Write($"We can drive at {MaxSpeed} km/h maximum, and ");
+            if (infantrys.Count > 5)
+            {
+                return "our truck stuff is complete";
+            }
+            else
+            {
+                return $"Herzlich wilkomenn im unsere TRUCK, wir sind: {infantrys.Count} zusammen.";
+            }
+        }
     }
 }
